@@ -1,0 +1,30 @@
+<div ng-controller="callMeCtrl" class="row">
+      <!-- video container -->
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="row  remote_container"> <!--  -->
+          <div class="col-md-12">
+            <div class="thumbnail conversationbox">
+              <div class="caption"></div>
+              <div id="remotesVideos"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.video container -->
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="row">
+          <!-- own_video container -->
+          <div class="row " id="localContainer">
+            <div class="col-md-12">
+              <div class="thumbnail conversationbox">
+                <div class="caption">
+                  <h4>Me</h4>
+                </div>
+                <video controls id="localVideo" width="100%" autoplay loop></video>
+              </div>
+            </div>
+          </div>
+          <!-- /.own_video container -->
+        </div>
+      </div>
+    </div>

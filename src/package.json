@@ -1,0 +1,10 @@
+{
+  "name": "callMe",
+  "version": "1.0.0",
+  "description": "a simple WebRTC call interface based on nodejs",
+  "main": "server.js",
+  "author": "Danny Koppenhagen",
+  "dependencies": {
+    "express": "*"
+  }
+}
